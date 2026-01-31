@@ -1,0 +1,7 @@
+{
+    "mcpServers": {
+        "mataparser": {
+            "url": "https://mataparser.cloud/platform/mcp/v1"
+        }
+    }
+}
