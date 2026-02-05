@@ -15,7 +15,7 @@ class AppConfig:
     MAX_FILE_SIZE_MB: int = 2
 
     # Mataparser API
-    API_URL: str = os.getenv("MATAPARSER_API_URL", "http://localhost:8000")
+    API_URL: str = os.getenv("MATAPARSER_API_URL", "https://mataparser.cloud/platform/api/v1")
     API_KEY: str = os.getenv("MATAPARSER_API_KEY", "")
 
 
