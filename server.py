@@ -83,6 +83,7 @@ async def tool_parse(file_path: str, json_template: str) -> dict:
 
     headers = {
         "x-api-key": api_key,
+        "x-mcp-version": "1.0",
     }
 
     data = {
